@@ -28,7 +28,7 @@ def main():
     text = input()
     if (text == "I"):
         text = input()
-    elif (text == "F"):
+    else:
         text = input()
         with open(text) as f:
             text = f.readline()
