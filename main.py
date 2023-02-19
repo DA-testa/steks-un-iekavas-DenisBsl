@@ -26,12 +26,12 @@ def find_mismatch(text):
 
 def main():
     text = input()
-    if (text == "I"):
-        text = input()
-    else:
+    if (text == "F"):
         text = input()
         with open(text) as f:
             text = f.readline()
+    else:
+        text = input()
 
     mismatch = find_mismatch(text)
     if (mismatch):
